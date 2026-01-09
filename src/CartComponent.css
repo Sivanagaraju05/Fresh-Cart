@@ -1,0 +1,86 @@
+.cart-container {
+    padding: 20px;
+  }
+  
+  .cart-title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .cart-header,
+  .cart-item {
+    display: grid;
+    grid-template-columns: 80px 1fr 80px 120px 100px 100px;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+  }
+  
+  .cart-header {
+    font-weight: bold;
+    background-color: #f1f1f1;
+  }
+  
+  .cart-item {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .cart-item img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+  }
+  
+  .quantity-box {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .quantity-box button {
+    padding: 4px 10px;
+  }
+  
+  .btn-remove {
+    background: #e74c3c;
+    color: white;
+    border: none;
+    padding: 6px;
+    cursor: pointer;
+  }
+  
+  .summary-section {
+    margin-top: 30px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .discount-buttons button,
+  .payment-method button {
+    margin: 5px;
+    padding: 8px 12px;
+  }
+  
+  .coupon-section {
+    margin: 10px 0;
+  }
+  
+  .qr-section,
+  .card-section {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .card-section input {
+    display: block;
+    margin: 8px auto;
+    padding: 8px;
+    width: 200px;
+  }
+  
+  .thank-you-message {
+    text-align: center;
+    color: green;
+  }
+  

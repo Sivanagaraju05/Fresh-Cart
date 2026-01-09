@@ -1,0 +1,150 @@
+/* Main Container */
+.about-container {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f9fafb;
+  color: #222;
+}
+
+/* Hero Section */
+.about-hero {
+  background: linear-gradient(135deg, #2ecc71, #27ae60);
+  color: white;
+  padding: 70px 20px;
+  text-align: center;
+}
+
+.about-hero h1 {
+  font-size: 42px;
+  margin-bottom: 15px;
+}
+
+.about-hero .highlight {
+  color: #ffeb3b;
+}
+
+.about-hero p {
+  max-width: 700px;
+  margin: auto;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* Offer Section */
+.about-offer {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.about-offer h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.offer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 30px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.offer-card {
+  background: white;
+  border-radius: 14px;
+  padding: 35px 20px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.offer-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
+}
+
+.offer-icon {
+  font-size: 42px;
+  margin-bottom: 15px;
+}
+
+.offer-icon.veg {
+  color: #2ecc71;
+}
+
+.offer-icon.nonveg {
+  color: #e74c3c;
+}
+
+.offer-icon.milk {
+  color: #3498db;
+}
+
+.offer-card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.offer-card p {
+  font-size: 15px;
+  color: #666;
+}
+
+/* Why Choose Section */
+.about-why {
+  background-color: #ffffff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.about-why h2 {
+  font-size: 30px;
+  margin-bottom: 35px;
+}
+
+.why-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.why-card {
+  background: #f4f6f8;
+  padding: 25px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.why-icon {
+  font-size: 30px;
+  color: #27ae60;
+}
+
+.why-card p {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* Footer */
+.about-footer {
+  background-color: #222;
+  color: #bbb;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .about-hero h1 {
+    font-size: 34px;
+  }
+
+  .about-offer h2,
+  .about-why h2 {
+    font-size: 26px;
+  }
+}
