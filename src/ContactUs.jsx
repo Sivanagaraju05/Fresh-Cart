@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import './Contactus.css';
+import './ContactUs.css';
 import {
   FaEnvelope,
   FaPhone,
